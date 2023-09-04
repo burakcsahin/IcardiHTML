@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Media/icardiCeleb.png);
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+    background-attachment: fixed; 
+    
+}
+
+.navbar {
+    width: 100%;
+    margin: auto;
+    padding: 0px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(116, 0, 0, 0.5); 
+    border-bottom: 2px solid #740000;
+}
+
+.logo{
+    width: 99px;
+    cursor: pointer;
+    margin-right: 50px; 
+
+}
+
+.navbar ul p{
+    text-decoration: none;
+    color: orange;
+    font-size: 50px;
+    text-align: center;
+    font-family: Comic Arial, Helvetica, sans-serif;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+
+.left-col{
+    margin-left: 2%;
+}
+
+.left-col h1{
+    font-size: 90px;
+    color: orange;
+    line-height: 110px;
+    font-family: comic Arial, Helvetica, sans-serif;
+}
+
+.right-col{
+    float: right;
+    margin-right: 6%;
+    margin-top: -360px; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.right-col p{
+    font-size: 55px;
+    color: #740000;
+    font-weight: 400;
+    margin-right: 15px;
+}
+
+.right-col h1{
+    font-size: 55px;
+    color: #740000;
+    line-height: 10px;
+    font-family: comic Arial, Helvetica, sans-serif;
+
+}
+
+#icon{
+    width: 80px;
+    cursor: pointer;
+}
+

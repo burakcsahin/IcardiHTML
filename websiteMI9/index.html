@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> ASK ADAMI </title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class = "container">
+            <div class = "navbar">
+                <img src = "Media/gsLogo.png" class="logo">
+                <ul>
+                    <p>MAURO EMANUEL ICARDI</p>
+                </ul>
+            </div>
+
+            <div class="content">
+                <div class="left-col">
+                    <h1><br>Best Goals</h1>
+                    <iframe width="500" height="310" src="https://www.youtube.com/embed/kcqkv0Q57tU?si=b1aqQTtcfAV2RC-e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="right-col">
+                    <h1> <br>AŞKIM OL<br></h1>
+                    <img src="Media/darkRedPlay.png" id="icon">
+                </div>
+            </div>
+         
+        </div>
+
+        <audio id="icardiSong">
+            <source src="Media/Askin_Olayım.mp3" type="audio/mp3">
+        </audio>
+
+        <script>
+            var icardiSong = document.getElementById("icardiSong");
+            var icon = document.getElementById("icon");
+
+            icon.onclick = function askinOlayim(){
+                if(icardiSong.paused){
+                    icardiSong.play();
+                    icon.src = "Media/darkRedPause.png";
+                }
+                else{
+                    icardiSong.pause();
+                    icon.src="Media/darkRedPlay.png";
+                }
+            }
+        </script>
+    </body>
+</html>
